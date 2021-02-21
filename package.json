@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/loganfmorro/Fitness-Tracker/issues"
   },
-  "homepage": "https://github.com/loganfmorro/Fitness-Tracker#readme"
+  "homepage": "https://github.com/loganfmorro/Fitness-Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17",
+    "stack": "^0.1.0"
+  }
 }
