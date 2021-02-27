@@ -174,7 +174,7 @@ function populateChart(data) {
 }
 
 function calculateTotalWeight(data) {
-  let totals = [];
+  let total = [];
 
   data.forEach((workout) => {
     const workoutTotal = workout.exercises.reduce((total, { type, weight }) => {
@@ -185,10 +185,10 @@ function calculateTotalWeight(data) {
       }
     }, 0);
 
-    totals.push(workoutTotal);
+    total.push(workoutTotal);
   });
 
-  return totals;
+  return total;
 }
 
 function workoutNames(data) {
